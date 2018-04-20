@@ -1,0 +1,21 @@
+bootstrap:
+  version: 1.x
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.min.css: {}
+  js:
+    includes/bootstrap/js/bootstrap.min.js: {}
+  
+
+global-components:
+  Version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:  
+  
+fontawesome:
+  version: 1.x
+  css:
+    theme:
+      includes/fontawesome/font-awesome.min.css: {}
