@@ -19,7 +19,6 @@ Go to the **theme** folder: Create a new folder here and ensure that it is nam
 ### Step2: Create **yourthemename.info.yml** file
 1. Move inside the folder created and create a new file here with the name: **yourthemename.info.yml**
 2. Open the YML file  enter the following details:
-
 - name: yourthemename
 - description: your_theme_description
 - type: theme
