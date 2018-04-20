@@ -1,5 +1,4 @@
 # Theme Folder Structure & Theme Files
-![Image](../images/structure.png?raw=true)
 ![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/structure.png)
 1. **yourthemename.info.yml**: this mandatory file gives information about your theme
 2. **libraries.yml**: defines your libraries (mostly your JS, CSS files).
@@ -16,10 +15,10 @@
 # How to create ?
 ### Step1: Create Theme Directory
 Go to the **theme** folder: Create a new folder here and ensure that it is named exactly as the name of the theme.
-
 ### Step2: Create **yourthemename.info.yml** file
 1. Move inside the folder created and create a new file here with the name: **yourthemename.info.yml**
 2. Open the YML file  enter the following details:
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/themename.png)
 - name: yourthemename
 - description: your_theme_description
 - type: theme
@@ -30,26 +29,25 @@ Indicate what base theme your custom theme will inherit. If not defined, Drupal 
 ### Step3: Add reference to the CSS file that will be used for the theme:
 1. Go to the theme’s folder and create a new file named **yourthemename.libraries.yml**
 2. Edit this file to add CSS: (see the following screenshot).
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/css_lib.png)
 3. Now, add the library in the  yourthemename.info.yml file as well. To do this, add the text in the file (see the following screenshot).
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/css.png)
 ### Step4: Add JavaScript Reference
 1. To add reference to the JavaScript reference to the theme, check out the following screenshot to add the text snippet to the **libraries.yml** file
-
 2. Now, add the the JavaScript library in the **info.yml** file.
-
 ### Step5: Add Boostrap	
 1. To add reference to the b to the theme, check out the following screenshot to add the text snippet to the **libraries.yml** file.
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/btr_lib.png)
 2. Now, add the the boostrap library in the **info.yml** file.
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/btr.png)
 ### Step6: Adding Regions to a Theme
 1. Adding region meta-data to your **yourthemename.info.yml**  file.
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/region.png)
 2. Go to the theme’s folder and create a new folder name **templates**
 3. Move inside the folder created and create a new file here with the name: **page.html.twig**
 4. Editing your **page.html.twig** file and printising the new regions.
-
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/page.png)
 ### Step7: Create main menu
 1. Go to folder **templates** and create new file here with name: **menu—main.html.twig**
 2. Edit your **menu—main.html.twig** file and add the text in the file (see the following screenshot)
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/menu.png)
