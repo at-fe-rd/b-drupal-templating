@@ -1,0 +1,62 @@
+<div id="page-wrapper">
+  <header role="banner" id="header" class="container">
+    {{ page.header }}
+  </header>
+   <section id="main" class="container">
+      <div class="main-content">
+          <div class="row">
+                <div id="content" class="col-md-9 col-sm-9 col-xs-12">
+                    {% if page.topwidget_first or page.topwidget_second or page.topwidget_third %}
+                      <div id="topwidget_first">
+                        {% if page.topwidget_first %}
+                          <div class="home-high-1 col-md-4">{{ page.topwidget_first }}</div>
+                        {% endif %}
+                        {% if page.topwidget_second %}
+                          <div class="topwidget_second col-md-4">{{ page.topwidget_second }}</div>
+                        {% endif %}
+                        {% if page.topwidget_third %}
+                          <div class="topwidget_third col-md-4">{{ page.topwidget_third }}</div>
+                        {% endif %}
+                      {% endif %}
+                    </div>
+                    {{ page.content }}
+                </div>
+                {% if page.sidebar %}
+                  <aside id="sidebar" class="sidebar col-md-3 col-sm-3 col-xs-12">
+                       {{ page.sidebar}}
+                  </aside>
+                {% endif %}
+          </div>
+      </div>
+    </section>
+    <footer id="footer" class="container-fluid">
+      <div class="container">
+        {% if page.footer_first or page.footer_second or page.footer_third %}
+            {% if page.footer_first%}
+              <div class="footer-area col-md-4 col-sm-4 col-xs-12">
+                {{ page.footer_first }}
+              </div>
+            {% endif %}
+            {% if page.footer_second %}
+              <div class="footer-area col-md-4 col-sm-4 col-xs-12">
+                {{ page.footer_second }}
+              </div>
+            {% endif %}
+            {% if page.footer_third %}
+              <div class="footer-area col-md-4 col-sm-4 col-xs-12">
+                {{ page.footer_third}}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="copyright">
+          <div class="container">
+              {% if page.copyright %}
+                {{ page.copyright }}
+              {% endif %}
+          </div>
+      </div>
+    </footer>
+ 
+</div>

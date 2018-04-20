@@ -1,0 +1,22 @@
+name: Newtheme
+type: theme
+base theme: classy
+Description: "A modern & responsive Drupal 8 Theme"
+package: custom
+core: 8.x
+#Libraries
+libraries:
+  - newtheme/bootstrap
+  - newtheme/fontawesome  
+  - newtheme/global-components
+regions:
+      header: header
+      topwidget_first: 'Top First Widget'
+      topwidget_second: 'Top Second Widget'
+      topwidget_third: 'Top Third Widget' 
+      content: content
+      sidebar: sidebar
+      footer_first: Footer first
+      footer_second: Footer second
+      footer_third: Footer third
+      copyright: Copyright
