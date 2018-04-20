@@ -1,5 +1,6 @@
 # Theme Folder Structure & Theme Files
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+![Image](../images/structure.png?raw=true)
+![Image](https://github.com/at-fe-rd/b-drupal-templating/blob/master/images/structure.png)
 1. **yourthemename.info.yml**: this mandatory file gives information about your theme
 2. **libraries.yml**: defines your libraries (mostly your JS, CSS files).
 3. **breakpoints.yml**:  defines the points to fit different screen devices.
