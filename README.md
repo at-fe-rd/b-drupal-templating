@@ -20,13 +20,13 @@ Go to the **theme** folder: Create a new folder here and ensure that it is nam
 1. Move inside the folder created and create a new file here with the name: **yourthemename.info.yml**
 2. Open the YML file  enter the following details:
 
-*name: yourthemename
-*description: your_theme_description
-*type: theme
-*core: 8.x
-*Basic theme: (optional yet recommended)
+- name: yourthemename
+- description: your_theme_description
+- type: theme
+- core: 8.x
+- Basic theme: (optional yet recommended)
 Indicate what base theme your custom theme will inherit. If not defined, Drupal will use “Stable” as your base theme.
-*region (optional): define the regions of the theme where you place your blocks. 
+- region (optional): define the regions of the theme where you place your blocks. 
 ### Step3: Add reference to the CSS file that will be used for the theme:
 1. Go to the theme’s folder and create a new file named **yourthemename.libraries.yml**
 2. Edit this file to add CSS: (see the following screenshot).
